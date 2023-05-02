@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #282c34;
+}
+
+#selection {
+  min-height: 400px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border: 5px solid greenyellow; /* fixed order of border properties */
+  padding: 10px;
+}
+
+#icons {
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#wartime {
+  background-color: transparent;
+  border-radius: 15px;
+  top: 30px;
+  margin: 3%;
+  border: 10px;
+  border-color: red;
+}
+
+#header {
+  text-align: center;
+  color: red;
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 4em;
+}
+
+#armySelect {
+  font-family: "Playfair Display SC", serif;
+  /* font-family: 'Cinzel Decorative', cursive; */
+}
